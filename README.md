@@ -46,154 +46,155 @@ When you have completed the project send us a link to your GitHub repository.
 
 Column Name: **Affidavit No**  
 Datatype: `string`  
-- use the `AFFIDAVITNO` value in the `PARTA_TRANSACTION` object  
+- [ ] Use the `AFFIDAVITNO` value in the `PARTA_TRANSACTION` object  
 
 
 
 Column Name: **Policy No**  
 Datatype: `string`  
-- use the `POLICYNO` value in the `PARTA_TRANSACTION` object  
+- [ ] Use the `POLICYNO` value in the `PARTA_TRANSACTION` object  
 
 
 Column Name: **Insured Name**  
 Datatype: `string`  
-- use the `RISKINSUREDNAME` value in the `PARTA_TRANSACTION` object  
+- [ ] Use the `RISKINSUREDNAME` value in the `PARTA_TRANSACTION` object  
 
 
 Column Name: **Type**  
 Datatype: `string`  
-- use the `TRANSACTIONTYPE` value in the `PARTA_TRANSACTION` object  
+- [ ] Use the `TRANSACTIONTYPE` value in the `PARTA_TRANSACTION` object  
 
 
 Column Name: **Premium**  
 Datatype: `currency`  
-- use the `AMOUNT` value in the `PARTA_TRANSACTION` object  
-- should include commas when necessary  
+- [ ] Use the `AMOUNT` value in the `PARTA_TRANSACTION` object  
+
+- [ ] Should include commas in premium amount when necessary  
 
 
 Column Name: **Inception**  
 Datatype: `date`  
 Format: `MM/DD/YYYY`  
-- use the `EFFECTIVEDATE` value in the `PARTA_TRANSACTION` object  
+- [ ] Use the `EFFECTIVEDATE` value in the `PARTA_TRANSACTION` object  
 
 
 Column Name: **Expiration**  
 Datatype: `date`  
 Format: `MM/DD/YYYY`  
-- use the `EXPIRATIONDATE` value in the `PARTA_TRANSACTION` object  
+- [ ] Use the `EXPIRATIONDATE` value in the `PARTA_TRANSACTION` object  
 
 
 Column Name: **Batch**  
 Datatype: `number`  
-- use the `BATCHID` value in the `PARTA_TRANSACTION` object  
+- [ ] Use the `BATCHID` value in the `PARTA_TRANSACTION` object  
 
 
 Column Name: **Submitted**  
 Datatype: `date`  
 Format: `MM/DD/YYYY`  
-- use the `RECIEVEDATE` value in the `PARTA_TRANSACTION` object  
+- [ ] Use the `RECIEVEDATE` value in the `PARTA_TRANSACTION` object  
 
 
 Column Name: **Proc State**  
 Datatype: `string`  
-- use the `PROCESSEDSTATE` value in the `PARTA_TRANSACTION` object    
+- [ ] Use the `PROCESSEDSTATE` value in the `PARTA_TRANSACTION` object    
 
-- this column will hold the Proc State value and the MoreVert Icon Button that will display a detail card.  
+- [ ] This column will hold the Proc State value and the MoreVert Icon Button that will display a detail card.  
 
 
 ---
 
 ## Detail Card
-- When the MoreVert Icon Button at the end of each row is clicked it will display details associated with the row.  
+- [ ] When the MoreVert Icon Button at the end of each row is clicked it will display details associated with the row.  
 
 ### Display the data for the card as follows:  
 
-- The **Affidavit No** will be the card header  
+- [ ] The **Affidavit No** will be the card header  
 
-    - use the `AFFIDAVITNO` value in the `PARTA_TRANSACTION` object.  
+    - [ ] Use the `AFFIDAVITNO` value in the `PARTA_TRANSACTION` object.  
 
-- The **Company(s)** detail can have multiple values  
+- [ ] The **Company(s)** detail can have multiple values  
 
-    - use the `COMPANY` array in the `PARTA_TRANSACTION` object to build the companies list.  
+    - [ ] Use the `COMPANY` array in the `PARTA_TRANSACTION` object to build the companies list.  
 
-    - display the `COMPANYNUMBER` - `COMPANYNAME` for each list item  
+    - [ ] Display the `COMPANYNUMBER` - `COMPANYNAME` for each list item  
 
-- The **Coverage** detail will have a single value  
+- [ ] The **Coverage** detail will have a single value  
 
-    - use the `COVERAGE` value in the `PARTA_TRANSACTION` object.  
+    - [ ] Use the `COVERAGE` value in the `PARTA_TRANSACTION` object.  
 
 ---
 
 ## Table Search
-- The search bar will be able to filter rows by any column that contains the search term.  
+- [ ] The search bar will be able to filter rows by any column that contains the search term.  
 
-- The search will not be limited to first character of a word the search term can show up any where in the word.  
+- [ ] The search will not be limited to first character of a word the search term can show up any where in the word.  
 
-- Should address `null` values   
+- [ ] The search should address `null` values   
 
 ### See Figures 3 and 4 
 
 ---
 
 ## Hide and Show Columns
-- The table will have an ViewColumn icon button in the toolbar which will allow the user to add or remove columns from the table.  
+- [ ] The table will have an ViewColumn icon button in the toolbar which will allow the user to add or remove columns from the table.  
 
-- All columns will be shown initially  
+- [ ] All columns will be shown initially  
 
 ### See Figure 5
 
 ---
 
 ## Export Data
-- The table will have a SaveAlt icon button in the toolbar which will allow the user to **Export as PDF** or **Export as CSV**.  
+- [ ] The table will have a SaveAlt icon button in the toolbar which will allow the user to **Export as PDF** or **Export as CSV**.  
 
-- The export should work for the entire data set not just the first 10 rows.  
+- [ ] The export should work for the entire data set not just the first 10 rows.  
 
-- Should address `null` values  
+- [ ] The export function should address `null` values  
 
 ### See Figure 6
 
 ---
 
 ## Filtering
-- The table will have a FilterList icon button in the toolbar which will toggle the column filter row in the table.  
+- [ ] The table will have a FilterList icon button in the toolbar which will toggle the column filter row in the table.  
 
-- Typing a value in a column filter should filter the rows that contain the search term in the column.   
+- [ ] Typing a value in a column filter should filter the rows that contain the search term in the column.   
 
-- Should address `null` values  
+- [ ] The filtering function should address `null` values  
 
 ### See Figures 7 - 9
 
 ---
 
 ## Density
-- The table will have a ViewHeadline icon button in the toolbar which will toggle the density of the rows.   
+- [ ] The table will have a ViewHeadline icon button in the toolbar which will toggle the density of the rows.   
 
-- The table should initially be set to a `normal` density and change to `dense` on first click.  
+- [ ] The table should initially be set to a `normal` density and change to `dense` on first click.  
 
 ### See Figures 10 & 11  
 
 ---
 
 ## Sorting
-- Clicking on the Column Header will sort the table by column row.  
+- [ ] Clicking on the Column Header will sort the table by column row.  
 
-- The first click on the Column Header will sort the rows by the selected column in ascending order.  
+- [ ] The first click on the Column Header will sort the rows by the selected column in ascending order.  
 
-- The second click on the Column Header will sort the rows by the selected column in descending order.  
+- [ ] The second click on the Column Header will sort the rows by the selected column in descending order.  
 
-- The third click will return the rows to the default order.  
+- [ ] The third click will return the rows to the default order.  
 
 ### See Figures 12 & 13  
 
 ---
 
 ## Rows Per Page
-- The default rows per page will be 10.  
+- [ ] The default rows per page will be 10.  
 
-- The options for rows per page will be 10, 25, 50, and 100.  
+- [ ] The options for rows per page will be 10, 25, 50, and 100.  
 
-- Choosing a row per page option will change how many rows show up on the page.  
+- [ ] Choosing a row per page option will change how many rows show up on the page.  
 
 ### See Figure 14  
 
