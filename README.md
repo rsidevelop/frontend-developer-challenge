@@ -123,6 +123,8 @@ Datatype: `string`
 
     - [ ] Use the `COVERAGE` value in the `PARTA_TRANSACTION` object.  
 
+### See Figure 2
+
 ---
 
 ## Table Search
