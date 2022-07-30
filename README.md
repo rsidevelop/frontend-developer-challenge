@@ -14,13 +14,15 @@ The table library that will be used for this project will be [Material-Table](ht
 - [Material Table Documentation 1](https://material-table.com/#/)
 - [Material Table Documentation 2](https://material-table-core.com/)
 
-When you have completed the project you can either zip up the project and email it back or create a repository for the project on GitHub and send us a link to the repository.
+When you have completed the project send us a link to your GitHub repository.
 
 # Set up 
 
-1. cd into client folder `yarn install`
+1. Fork and clone this repository. 
 
-2. `yarn start` to start the React app. 
+2. cd into client folder `yarn install`
+
+3. `yarn start` to start the React app. 
 
 - If `yarn -v` doesn't work, install [`yarn`](https://yarnpkg.com/en/)
    - `npm install -g yarn`
@@ -28,11 +30,11 @@ When you have completed the project you can either zip up the project and email 
 # Requirements
 
 ## Data Loading
-- When the user clicks the **SEARCH** button it will load the mock data from the **data.js** file into the table.  
+- [ ] When the user clicks the **SEARCH** button it will load the mock data from the **data.js** file into the table.  
 
-- The table will show **NO RECORDS TO DISPLAY** before the data is loaded.  
+- [ ] The table will show **NO RECORDS TO DISPLAY** before the data is loaded.  
 
-- The Search by Affidavit No, Policy No, Batch No, or Insured Name input does **NOT** need to be functional.  
+- [ ] The Search by Affidavit No, Policy No, Batch No, or Insured Name input does **NOT** need to be functional.  
 
 ### See Figure 1
 
